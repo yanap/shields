@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"log"
+
 	"github.com/kelseyhightower/envconfig"
 	"github.com/labstack/echo/v4"
-	"log"
 )
 
 type Config struct {
